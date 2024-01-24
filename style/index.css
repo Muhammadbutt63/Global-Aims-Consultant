@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,500;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600&family=Poppins:ital,wght@0,200;1,300;1,400;1,500;1,600&display=swap');
+
 *{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -24,7 +25,7 @@ body{
     
 }
 .nav-item{
-	padding-right: 20px;
+	padding-right: 5px;
 }
 
 .nav-link:hover{
@@ -38,18 +39,24 @@ body{
 .btn:hover{
     
     background-color: white;
-    color: yellow;
+    color: #B51A1A;
     font-weight: 600;
 
 }
 
+.logo{
+    width: 150px;
+}
+
 @media screen and (max-width: 576px) {
     .ultimate{
-        font: size 10px;;
-        
-
+        font: size 10px;
     }
     
+    .logo{
+        width: 120px;
+
+    }
   }
 
 .bg-video{
@@ -99,6 +106,13 @@ body{
     font-weight: 600;
 }
 
+.web-details a:hover{
+color: red;
+}
+.web-details a{
+    color: white;
+    }
+
 
 #about{
     background-color: black;
@@ -143,7 +157,7 @@ body{
                     }
 
                     .text-custom{
-                        color: yellow !important;
+                        color: #B51A1A !important;
                         }
                 
                 #teams{
@@ -286,7 +300,7 @@ img{ width:100%; height: 100%;}
   .team4 ul li a:hover {
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
-      color: yellow;
+      color: #B51A1A;
   }
 
   .submit-button:hover{
@@ -307,7 +321,7 @@ color: white;
 .toggler-icon{
     width: 30px;
     height: 3px;
-    background-color: yellow;
+    background-color: #B51A1A;
     display: block;
     transition: all 0.2s;
 
@@ -357,7 +371,7 @@ hr{
 .ic1:hover{
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
-      color: yellow;
+      color: #B51A1A;
     
 }
   
@@ -381,7 +395,34 @@ hr{
     width: 70px;
   }
 
-  .card{cursor: pointer} .card.hover{color: #222;} .card:hover{box-shadow: 0 20px 40px rgba(0, 0, 0, .2)}.img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}.card-title{font-weight: 600}button.focus, button:focus{outline: 0;box-shadow: none !important}.chk{margin-bottom: 5px}.rck{margin-top: 20px;padding-bottom: 15px}
+  img{ width:100%; height: 100%;}
+
+.gallery_box li{ float: left; width:33.333333%; max-width: 100% ; display:inline-block; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display: flow-root; margin-top: 5px;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 240px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 375px; 
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0, 0, 0, 0.27) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+
+
 
 
 
