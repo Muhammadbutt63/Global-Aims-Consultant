@@ -48,6 +48,21 @@ body{
     width: 150px;
 }
 
+.Glo{
+    font-size: 50px;
+}
+.glo1{
+    font-size: 40px;
+}
+.glo2{
+    font-size: 20px;
+}
+.time{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
 @media screen and (max-width: 576px) {
     .ultimate{
         font: size 10px;
@@ -56,6 +71,15 @@ body{
     .logo{
         width: 120px;
 
+    }
+    .Glo{
+        font-size: 35px;
+    }
+    .glo1{
+        font-size: 30px;
+    }
+    .time{
+        font-size: 40px;
     }
   }
 
@@ -88,10 +112,7 @@ body{
     font-weight: bold;
     
 }
-.main-heading p{
-    font-size: 18px;
-    letter-spacing: 2px;
-}
+
 
 .main-heading a{
     padding: 5px 15px;
@@ -112,6 +133,8 @@ color: red;
 .web-details a{
     color: white;
     }
+
+
 
 
 #about{
