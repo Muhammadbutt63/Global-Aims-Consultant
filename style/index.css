@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -73,7 +74,7 @@ body{
 
     }
     .Glo{
-        font-size: 30px;
+        font-size: 25px;
     }
     .glo1{
         font-size: 25px;
@@ -115,7 +116,6 @@ body{
     
 }
 
-
 .main-heading a{
     padding: 5px 15px;
     border-radius: 5px;
@@ -136,14 +136,10 @@ color: red;
     color: white;
     }
 
-
-
-
 #about{
     background-color: black;
     width: 100%;
 }
-
 
                     .font-weight-bold{
                         font-weight: bold;
