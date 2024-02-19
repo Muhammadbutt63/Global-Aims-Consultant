@@ -66,12 +66,6 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-window.onbeforeunload = () => {
-  for(const form of document.getElementsByTagName('form')) {
-    form.reset();
-  }
-}
-
 $(document).ready(function() {
 
   var counters = $(".count");
@@ -96,3 +90,10 @@ $(document).ready(function() {
     count(0, counter[j], j);
   }
 });
+
+
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
