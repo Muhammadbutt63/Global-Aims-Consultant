@@ -80,10 +80,6 @@ body{
     font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
 
 @media screen and (max-width: 576px) {
     .ultimate{
@@ -113,6 +109,7 @@ body{
     .wh{
         font-size: 50px;
     }
+
   }
 
 .bg-video{
@@ -159,7 +156,7 @@ body{
 #feedback-form-wrapper #floating-icon > button {
     position: fixed;
     right: 0;
-    top: 50%;
+    top: 75%;
     transform: rotate(-90deg) translate(50%, -50%);
     transform-origin: right;
   }
