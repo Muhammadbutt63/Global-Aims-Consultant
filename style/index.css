@@ -156,6 +156,14 @@ body{
     font-weight: 700;
 }
 
+#feedback-form-wrapper #floating-icon > button {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(-90deg) translate(50%, -50%);
+    transform-origin: right;
+  }
+
 #about{
     background-color: black;
     width: 100%;
